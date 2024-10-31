@@ -1,0 +1,16 @@
+# .gitignore
+bin/
+obj/
+.vs/
+*.user
+*.userosscache
+*.suo
+*.dbmdl
+*.jfm
+.vscode/
+node_modules/
+wwwroot/dist/
+*.log
+.env
+.env.local
+.DS_Store
