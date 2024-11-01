@@ -1,0 +1,29 @@
+# .gitconfig
+[core]
+    autocrlf = false
+    safecrlf = false
+    editor = code --wait
+    excludesfile = ~/.gitignore_global
+
+[pull]
+    rebase = true            # Always rebase on pull
+    ff = only               # Fast-forward only
+
+[push]
+    default = current
+
+[merge]
+    tool = vscode
+    ff = only               # Fast-forward only for merges
+
+[branch]
+    autosetuprebase = always  # Auto setup rebase for new branches
+
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+
+[diff]
+    tool = vscode
+
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE

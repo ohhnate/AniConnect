@@ -4,5 +4,5 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5514334-3F8F-4A6F-9961-20683CD63934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeConnect.Web", "src\AnimeConnect.Web\AnimeConnect.Web.csproj", "{1234567A-89BC-DEF0-1234-56789ABCDEF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniConnect.Web", "src\AniConnect.Web\AniConnect.Web.csproj", "{1234567A-89BC-DEF0-1234-56789ABCDEF0}"
 EndProject
